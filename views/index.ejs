@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>hello world</h1>
+    <form action="/get-form-data" method="post">
+      <input type="text" placeholder="UserID" name="UserID" />
+      <input type="email" placeholder="Email" name="email" />
+      <input type="password" placeholder="Password" name="password" />
+      <button>Submit</button>
+    </form>
+    <script src="index.js"></script>
   </body>
 </html>
